@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset style */
+h1, h2, h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.cs {
+    color: red;
+}
+.commsa {
+    padding-left: 5vw;
+    padding-top: 2vh;
+    margin-left: 5vw;
+    width: 85vw;
+    background-color: rgb(109, 99, 99);
+}
+.names {
+    margin-top: 4vh;
+    margin-left: 5vw;
+    width: 63vw;
+    background-color: rgb(255, 255, 255);
+}
+.block {
+    margin-top: 4vh;
+    margin-left: 3vw;
+    width: 79vw;
+    background-color: rgb(156, 156, 156);
+}
+.inv {
+    visibility: hidden;
+    overflow: hidden;
+}
+.whi {
+    margin-left: 68vw;
+    margin-top: 4vh;
+    height: 7vh;
+    width: 10vw;
+    cursor: pointer;
+    background-color: white;
+}
+.check {
+    margin-left: 68vw;
+    margin-top: 4vh;
+    height: 7vh;
+    width: 10vw;
+    cursor: pointer;
+    background-color: green;
+}
+.commsa > div > .block a {
+    text-decoration: none;
+    color: green;
+}
+.commsa > div > .block a:hover {
+    text-decoration: none;
+    color: rgb(5, 230, 5);
+}
+.commsa > .names a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+.commsa > .names a:hover {
+    color: rgb(39, 39, 39);
+}
+.gr {
+    color: rgb(0, 250, 0);
+}
+.rd {
+    margin-left: 4vw;
+    color: rgb(199, 0, 0);
+}
+.listi {
+    display: block;
+    position: fixed;
+    width: 23vw;
+    background-color: rgb(136, 136, 136);
+}
+.prim {
+    margin-left: 41vw;
+
+}
+.audior {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.438);
+    z-index: 99;
+}
+.quetq {
+    margin-top: 20vh;
+    margin-left: 8vw;
+    color: white;
+    width: 40vw;
+    background-color: black;
+}
+#playAudio {
+    margin-top: 49vh;
+    margin-left: 57vw;
+    border: none;
+    padding: 4vh 4vw;
+    background-color: rgb(48, 48, 168);
+    cursor: pointer;
+}
+#deny {
+    margin-top: 49vh;
+    margin-left: 10vw;
+    border: none;
+    padding: 4vh 4vw;
+    background-color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+{
+    "buttons": {
+
+        "button1": {
+            "check": "no"
+        },
+        "button2": {
+            "check": "no"
+        }
+
+    }
+}
