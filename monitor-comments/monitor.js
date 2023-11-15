@@ -1377,7 +1377,7 @@ rp3.classList.remove('inv');
         })
     });
 
-
+console.clear(); // clear errors with 403
 };
 update();
 let geti = document.getElementById("titles");
