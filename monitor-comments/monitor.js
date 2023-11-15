@@ -1462,8 +1462,10 @@ function klik2() {
     document.getElementById("bloch").remove();
     setInterval(checkComm2, 1000);
 }
+function updata() {
 setInterval(update, 1000);
-
+};
+setTimeout(updata, 5000);
 
 
 
