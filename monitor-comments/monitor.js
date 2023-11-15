@@ -6,7 +6,7 @@ let checki = 0;
 let uncheki = 0;
 function update() {
 
-fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=UUZXul1qzf7cvy3r2NgAeiCA&key=AIzaSyC0ZpPFc-ZLTnZ81w-G4zDXgZhQmm4lBgw`)
+fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=UUZXul1qzf7cvy3r2NgAeiCA&key=AIzaSyD65PmQbUqBqIVwmLwvj4vONVyw3LOIu9M`)
 .then(videoa => videoa.json())
     .then(vi1 => {
 
@@ -53,7 +53,7 @@ fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResul
         getesaH.href = linkiH;
         getesaH.textContent = titlesH;
 
-        fetch(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=${newid}&key=AIzaSyC0ZpPFc-ZLTnZ81w-G4zDXgZhQmm4lBgw`)
+        fetch(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=${newid}&key=AIzaSyD65PmQbUqBqIVwmLwvj4vONVyw3LOIu9M`)
 .then(comment => comment.json())
     .then(v1 => { // comment of one video
 
@@ -326,7 +326,7 @@ elment2if.classList.remove('inv');
 
     })
 
-    fetch(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=${newid2}&key=AIzaSyC0ZpPFc-ZLTnZ81w-G4zDXgZhQmm4lBgw`)
+    fetch(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=${newid2}&key=AIzaSyD65PmQbUqBqIVwmLwvj4vONVyw3LOIu9M`)
 .then(comment2 => comment2.json())
     .then(v2 => { // comment of second video
 
@@ -553,7 +553,7 @@ elment4if1.classList.remove('inv');
     })
 
 
-    fetch(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=${newid3}&key=AIzaSyC0ZpPFc-ZLTnZ81w-G4zDXgZhQmm4lBgw`)
+    fetch(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=${newid3}&key=AIzaSyD65PmQbUqBqIVwmLwvj4vONVyw3LOIu9M`)
 .then(comment3 => comment3.json())
     .then(v3 => { // comment of third video
 
@@ -824,7 +824,7 @@ sus2.classList.remove('inv');
 
 
 
-    fetch(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=KGokaw5UAlo&key=AIzaSyC0ZpPFc-ZLTnZ81w-G4zDXgZhQmm4lBgw`)
+    fetch(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=KGokaw5UAlo&key=AIzaSyD65PmQbUqBqIVwmLwvj4vONVyw3LOIu9M`)
 .then(commentRU => commentRU.json())
     .then(vRU => { // comment of Russian video
 
@@ -1101,7 +1101,7 @@ rp3.classList.remove('inv');
 
 
 
-    fetch(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=ZZ7zJ02pGYM&key=AIzaSyC0ZpPFc-ZLTnZ81w-G4zDXgZhQmm4lBgw`)
+    fetch(`https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=ZZ7zJ02pGYM&key=AIzaSyD65PmQbUqBqIVwmLwvj4vONVyw3LOIu9M`)
     .then(comment9 => comment9.json())
         .then(hour => { // comment of hour video
 
@@ -1377,7 +1377,7 @@ rp3.classList.remove('inv');
         })
     });
 
-console.clear(); // clear errors with 403
+
 };
 update();
 let geti = document.getElementById("titles");
@@ -1462,10 +1462,8 @@ function klik2() {
     document.getElementById("bloch").remove();
     setInterval(checkComm2, 1000);
 }
-function updata() {
 setInterval(update, 1000);
-};
-setTimeout(updata, 5000);
+
 
 
 
